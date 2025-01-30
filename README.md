@@ -1,2 +1,2 @@
-# CC-
+# CCP
 C/C++ Study
