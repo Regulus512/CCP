@@ -11,5 +11,9 @@ int main()
 
 	// Literal Test
 	int a = 0b1010;
-	printf("%d", ++a);
+	printf("%d\n", ++a);
+
+	// format test
+	printf("%d %lld\n", -1, -1);
+	printf("%d %lld\n", -1, -1LL);
 }
