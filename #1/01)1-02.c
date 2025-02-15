@@ -16,4 +16,11 @@ int main()
 	// format test
 	printf("%d %lld\n", -1, -1);
 	printf("%d %lld\n", -1, -1LL);
+
+	// flexible issue
+	printf("%*d\n", 4, 10);
+
+	// window long type size - 4byte (Linux - 8byte)
+	printf("%d\n", sizeof(1L));
+	printf("%d\n", sizeof(1LL));
 }
